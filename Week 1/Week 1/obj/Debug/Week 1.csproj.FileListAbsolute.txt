@@ -1,1 +1,10 @@
 c:\users\medion\documents\visual studio 2013\Projects\Week 1\Week 1\bin\Debug\Week 1.exe.config
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\bin\Debug\Week 1.exe.config
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\bin\Debug\Week 1.exe
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\bin\Debug\Week 1.pdb
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week 1.csprojResolveAssemblyReference.cache
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week_1.Form1.resources
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week_1.Properties.Resources.resources
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week 1.csproj.GenerateResource.Cache
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week 1.exe
+C:\Users\Dmytro\Documents\GitHub\DPI\Week 1\Week 1\obj\Debug\Week 1.pdb
