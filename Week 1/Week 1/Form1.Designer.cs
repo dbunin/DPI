@@ -39,6 +39,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             this.rbFirstInFirstOut.TabStop = true;
             this.rbFirstInFirstOut.Text = "First Come First Serve";
             this.rbFirstInFirstOut.UseVisualStyleBackColor = true;
+            this.rbFirstInFirstOut.CheckedChanged += new System.EventHandler(this.rbFirstInFirstOut_CheckedChanged);
             // 
             // rbShortestSeekTime
             // 
@@ -66,6 +68,7 @@
             this.rbShortestSeekTime.TabStop = true;
             this.rbShortestSeekTime.Text = "Shortest Seek Time First";
             this.rbShortestSeekTime.UseVisualStyleBackColor = true;
+            this.rbShortestSeekTime.CheckedChanged += new System.EventHandler(this.rbShortestSeekTime_CheckedChanged);
             // 
             // rbSCANDisc
             // 
@@ -78,6 +81,7 @@
             this.rbSCANDisc.TabStop = true;
             this.rbSCANDisc.Text = "SCAN disc (elevator)";
             this.rbSCANDisc.UseVisualStyleBackColor = true;
+            this.rbSCANDisc.CheckedChanged += new System.EventHandler(this.rbSCANDisc_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -142,6 +146,10 @@
             this.trackBar1.Size = new System.Drawing.Size(69, 347);
             this.trackBar1.TabIndex = 8;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -176,6 +184,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 
